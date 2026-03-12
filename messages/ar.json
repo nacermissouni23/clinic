@@ -1,0 +1,351 @@
+{
+  "common": {
+    "clinicName": "كلينيك كونكت DZ",
+    "clinicNameDefault": "عيادة طب الأسنان",
+    "language": {
+      "fr": "Français",
+      "ar": "العربية",
+      "toggle": "تغيير اللغة",
+      "current": "عر"
+    },
+    "nav": {
+      "home": "الرئيسية",
+      "services": "خدماتنا",
+      "about": "طبيب الأسنان",
+      "gallery": "المعرض",
+      "reviews": "آراء المرضى",
+      "contact": "اتصل بنا",
+      "booking": "حجز موعد",
+      "faq": "أسئلة شائعة",
+      "admin": "لوحة التحكم"
+    },
+    "footer": "جميع الحقوق محفوظة",
+    "openNow": "مفتوح الآن",
+    "closedNow": "مغلق حالياً",
+    "loading": "جارٍ التحميل...",
+    "seeMore": "عرض المزيد",
+    "seeLess": "عرض أقل",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "search": "بحث",
+    "noResults": "لم يتم العثور على نتائج",
+    "yes": "نعم",
+    "no": "لا"
+  },
+
+  "hero": {
+    "headline": "ابتسامتك تستحقّ الأفضل",
+    "subheadline": "رعاية أسنان متكاملة في عيادة حديثة ومجهّزة بأحدث التقنيات. طبيب أسنان مختصّ يرافقك للحفاظ على صحّة فمك وأسنانك.",
+    "ctaWhatsApp": "راسلنا على واتساب",
+    "ctaCall": "اتصل بالعيادة",
+    "ctaBooking": "احجز موعدك",
+    "trustedBy": "مرضى يثقون بنا",
+    "availableToday": "متاح اليوم"
+  },
+
+  "services": {
+    "title": "خدمات طب الأسنان",
+    "subtitle": "مجموعة شاملة من العلاجات لتلبية جميع احتياجاتك في طب الأسنان، باستخدام أحدث التقنيات والمواد.",
+    "categories": {
+      "general": {
+        "name": "العلاجات العامة",
+        "description": "فحوصات، تنظيف الأسنان، علاج التسوّس والحشوات التحفظية للحفاظ على صحّة الفم والأسنان."
+      },
+      "cosmetic": {
+        "name": "تجميل الأسنان",
+        "description": "تبييض الأسنان، القشور الخزفية، التيجان السيراميكية والترميمات التجميلية لابتسامة مشرقة."
+      },
+      "orthodontics": {
+        "name": "تقويم الأسنان",
+        "description": "أجهزة تقويم ثابتة ومتحركة، مقوّمات شفافة وتصحيح اعوجاج الأسنان للحصول على صفّ مثالي."
+      },
+      "surgery": {
+        "name": "جراحة الأسنان",
+        "description": "خلع الأسنان، زراعة الأسنان، ترقيع العظام وجراحة أضراس العقل."
+      },
+      "paediatric": {
+        "name": "طب أسنان الأطفال",
+        "description": "علاجات مخصّصة للأطفال في جوّ مريح وآمن، من الوقاية إلى العلاج."
+      },
+      "emergency": {
+        "name": "الحالات الطارئة",
+        "description": "تكفّل سريع بالآلام الحادة، إصابات الأسنان والالتهابات."
+      }
+    },
+    "viewDetails": "عرض التفاصيل",
+    "bookAppointment": "احجز موعداً",
+    "priceFrom": "ابتداءً من",
+    "duration": "المدة",
+    "visits": "الجلسات",
+    "singleVisit": "جلسة واحدة",
+    "multipleVisits": "{count} جلسات",
+    "minutes": "دقيقة",
+    "currency": "د.ج",
+    "freeConsultation": "استشارة مجانية",
+    "popularService": "خدمة شائعة"
+  },
+
+  "about": {
+    "title": "طبيب الأسنان",
+    "subtitle": "جرّاح أسنان مؤهّل ومتفانٍ في خدمتكم.",
+    "qualifications": "الشهادات والمؤهلات",
+    "experience": "الخبرة المهنية",
+    "specialties": "التخصصات",
+    "yearsOfExperience": "{count} سنوات خبرة",
+    "graduatedFrom": "متخرّج من",
+    "acceptingPatients": "يستقبل مرضى جدد",
+    "notAcceptingPatients": "لا يستقبل مرضى جدد حالياً",
+    "languages": "اللغات",
+    "memberships": "العضويات المهنية",
+    "philosophy": "منهجنا",
+    "philosophyText": "نؤمن بمقاربة شخصية حيث يحظى كلّ مريض بخطة علاج مصمّمة حسب احتياجاته، في جوّ من الثقة والشفافية."
+  },
+
+  "gallery": {
+    "title": "معرض قبل وبعد",
+    "subtitle": "اكتشفوا نتائج علاجاتنا من خلال حالات حقيقية.",
+    "filters": {
+      "all": "جميع الحالات",
+      "category": "التصنيف",
+      "upperJaw": "الفكّ العلوي",
+      "lowerJaw": "الفكّ السفلي",
+      "bothJaws": "الفكّان معاً"
+    },
+    "before": "قبل",
+    "after": "بعد",
+    "caseDetails": "تفاصيل الحالة",
+    "treatment": "العلاج المُنجز",
+    "treatmentDuration": "مدة العلاج",
+    "patientConsent": "نُشرت الصور بموافقة المريض",
+    "noPhotos": "لا توجد صور في هذا التصنيف"
+  },
+
+  "reviews": {
+    "title": "آراء مرضانا",
+    "subtitle": "ما يقوله مرضانا عن تجربتهم في العيادة.",
+    "verifiedReview": "تقييم موثّق",
+    "source": {
+      "google": "تقييم Google",
+      "facebook": "تقييم Facebook",
+      "website": "تقييم على الموقع"
+    },
+    "ratingOutOf5": "{rating} من 5",
+    "leaveReview": "اترك تقييمك",
+    "totalReviews": "{count} تقييم إجمالاً",
+    "averageRating": "متوسط التقييمات",
+    "sortBy": "ترتيب حسب",
+    "sortRecent": "الأحدث",
+    "sortHighest": "الأعلى تقييماً",
+    "sortLowest": "الأدنى تقييماً",
+    "writeReview": "اكتب تقييمك",
+    "yourRating": "تقييمك",
+    "yourReview": "رأيك",
+    "submitReview": "إرسال التقييم",
+    "thankYou": "شكراً على تقييمك!",
+    "reviewSubmitted": "تم إرسال تقييمك وسيُنشر بعد المراجعة."
+  },
+
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "لا تتردّد في التواصل معنا لأي استفسار أو لحجز موعد.",
+    "address": "عنوان العيادة",
+    "phone": "الهاتف",
+    "whatsapp": "واتساب",
+    "email": "البريد الإلكتروني",
+    "openingHours": "أوقات العمل",
+    "emergencyContact": "رقم الطوارئ",
+    "getDirections": "الاتجاهات",
+    "mapTitle": "موقعنا",
+    "days": {
+      "sunday": "الأحد",
+      "monday": "الإثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت"
+    },
+    "closed": "مغلق",
+    "sendMessage": "إرسال رسالة",
+    "messagePlaceholder": "اكتب رسالتك هنا...",
+    "messageSent": "تم إرسال رسالتك بنجاح.",
+    "messageError": "حدث خطأ. يرجى المحاولة مرة أخرى."
+  },
+
+  "booking": {
+    "title": "حجز موعد",
+    "subtitle": "احجز موعدك في بضع خطوات بسيطة.",
+    "steps": {
+      "service": "اختيار العلاج",
+      "date": "اختيار التاريخ",
+      "info": "معلوماتك",
+      "confirmation": "التأكيد"
+    },
+    "form": {
+      "name": "الاسم الكامل",
+      "namePlaceholder": "أدخل اسمك الكامل",
+      "phone": "رقم الهاتف",
+      "phonePlaceholder": "مثال: 05 XX XX XX XX",
+      "preferredDate": "التاريخ المفضّل",
+      "preferredTime": "الوقت المفضّل",
+      "notes": "ملاحظات",
+      "notesPlaceholder": "معلومات إضافية (حساسية، أدوية حالية، إلخ)",
+      "selectService": "اختر العلاج",
+      "selectDate": "اختر التاريخ",
+      "selectTime": "اختر الوقت"
+    },
+    "submit": "تأكيد الموعد",
+    "success": {
+      "title": "تم تأكيد الموعد!",
+      "message": "تم تسجيل طلب موعدك بنجاح. سنتواصل معك لتأكيد الموعد.",
+      "reference": "المرجع: {ref}"
+    },
+    "error": {
+      "title": "خطأ",
+      "message": "حدث خطأ أثناء حجز الموعد. يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة.",
+      "slotTaken": "هذا الموعد لم يعد متاحاً. يرجى اختيار موعد آخر.",
+      "pastDate": "لا يمكنك اختيار تاريخ في الماضي."
+    },
+    "morning": "صباحاً",
+    "afternoon": "مساءً",
+    "available": "متاح",
+    "unavailable": "غير متاح",
+    "selectedDate": "التاريخ المختار",
+    "selectedTime": "الوقت المختار",
+    "summary": "ملخّص الحجز"
+  },
+
+  "faq": {
+    "title": "أسئلة شائعة",
+    "subtitle": "إجابات على الأسئلة الأكثر شيوعاً حول خدماتنا وطريقة عمل العيادة.",
+    "stillHaveQuestions": "لديك أسئلة أخرى؟",
+    "contactUs": "لا تتردّد في التواصل معنا"
+  },
+
+  "admin": {
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "welcome": "مرحباً بك في لوحة الإدارة",
+      "todayAppointments": "مواعيد اليوم",
+      "pendingAppointments": "مواعيد في الانتظار",
+      "totalPatients": "إجمالي المرضى",
+      "newMessages": "رسائل جديدة",
+      "recentActivity": "النشاط الأخير",
+      "quickActions": "إجراءات سريعة"
+    },
+    "appointments": {
+      "title": "إدارة المواعيد",
+      "upcoming": "المواعيد القادمة",
+      "past": "المواعيد السابقة",
+      "cancelled": "المواعيد الملغاة",
+      "status": {
+        "pending": "في الانتظار",
+        "confirmed": "مؤكّد",
+        "completed": "مكتمل",
+        "cancelled": "ملغى",
+        "noShow": "لم يحضر"
+      },
+      "confirmAppointment": "تأكيد",
+      "cancelAppointment": "إلغاء",
+      "reschedule": "إعادة جدولة",
+      "noAppointments": "لا توجد مواعيد"
+    },
+    "patients": {
+      "title": "سجل المرضى",
+      "addPatient": "إضافة مريض",
+      "editPatient": "تعديل بيانات المريض",
+      "patientHistory": "سجل المريض",
+      "lastVisit": "آخر زيارة",
+      "nextAppointment": "الموعد القادم",
+      "totalVisits": "عدد الزيارات",
+      "noPatients": "لا يوجد مرضى مسجّلون"
+    },
+    "content": {
+      "title": "إدارة المحتوى",
+      "editServices": "تعديل الخدمات",
+      "editGallery": "تعديل المعرض",
+      "editFAQ": "تعديل الأسئلة الشائعة",
+      "editAbout": "تعديل صفحة الطبيب",
+      "editHours": "تعديل أوقات العمل"
+    },
+    "analytics": {
+      "title": "الإحصائيات",
+      "visitors": "الزوار",
+      "bookings": "الحجوزات",
+      "conversionRate": "معدل التحويل",
+      "topServices": "الخدمات الأكثر طلباً",
+      "period": "الفترة",
+      "thisWeek": "هذا الأسبوع",
+      "thisMonth": "هذا الشهر",
+      "thisYear": "هذه السنة"
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "general": "عام",
+      "notifications": "الإشعارات",
+      "security": "الأمان",
+      "clinicInfo": "معلومات العيادة",
+      "changePassword": "تغيير كلمة المرور",
+      "language": "لغة الواجهة"
+    },
+    "messages": {
+      "title": "الرسائل",
+      "inbox": "صندوق الوارد",
+      "unread": "غير مقروءة",
+      "read": "مقروءة",
+      "reply": "ردّ",
+      "markAsRead": "تعليم كمقروءة",
+      "noMessages": "لا توجد رسائل"
+    },
+    "reviews": {
+      "title": "إدارة التقييمات",
+      "approve": "قبول",
+      "reject": "رفض",
+      "pending": "في انتظار المراجعة",
+      "published": "منشورة",
+      "rejected": "مرفوضة"
+    }
+  },
+
+  "footer": {
+    "copyright": "© {year} {clinicName}. جميع الحقوق محفوظة.",
+    "quickLinks": "روابط سريعة",
+    "legalNotice": "إشعار قانوني",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfUse": "شروط الاستخدام",
+    "madeWith": "صُنع بعناية في الجزائر",
+    "followUs": "تابعونا",
+    "description": "عيادة أسنان تقدّم رعاية عالية الجودة بأحدث التجهيزات."
+  },
+
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidPhone": "رقم الهاتف غير صالح. استخدم الصيغة: 05 XX XX XX XX",
+    "invalidEmail": "البريد الإلكتروني غير صالح",
+    "tooShort": "يجب أن يحتوي هذا الحقل على {min} أحرف على الأقل",
+    "tooLong": "يجب ألّا يتجاوز هذا الحقل {max} حرفاً",
+    "invalidDate": "تاريخ غير صالح",
+    "pastDate": "لا يمكن اختيار تاريخ في الماضي",
+    "generic": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "networkError": "خطأ في الاتصال. تحقّق من اتصالك بالإنترنت.",
+    "notFound": "الصفحة غير موجودة",
+    "notFoundMessage": "الصفحة التي تبحث عنها غير موجودة أو تمّ نقلها.",
+    "serverError": "خطأ في الخادم",
+    "serverErrorMessage": "حدثت مشكلة تقنية. يرجى المحاولة لاحقاً.",
+    "unauthorized": "غير مصرّح بالدخول",
+    "nameRequired": "يرجى إدخال اسمك",
+    "phoneRequired": "يرجى إدخال رقم هاتفك",
+    "serviceRequired": "يرجى اختيار العلاج",
+    "dateRequired": "يرجى اختيار التاريخ",
+    "timeRequired": "يرجى اختيار الوقت",
+    "ratingRequired": "يرجى إعطاء تقييم",
+    "reviewRequired": "يرجى كتابة تقييمك"
+  }
+}

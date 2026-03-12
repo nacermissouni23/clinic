@@ -1,0 +1,351 @@
+{
+  "common": {
+    "clinicName": "Clinique Connect DZ",
+    "clinicNameDefault": "Cabinet Dentaire",
+    "language": {
+      "fr": "Fran\u00e7ais",
+      "ar": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+      "toggle": "Changer de langue",
+      "current": "FR"
+    },
+    "nav": {
+      "home": "Accueil",
+      "services": "Nos soins",
+      "about": "Notre dentiste",
+      "gallery": "Galerie",
+      "reviews": "Avis",
+      "contact": "Contact",
+      "booking": "Rendez-vous",
+      "faq": "FAQ",
+      "admin": "Administration"
+    },
+    "footer": "Tous droits r\u00e9serv\u00e9s",
+    "openNow": "Ouvert actuellement",
+    "closedNow": "Ferm\u00e9 actuellement",
+    "loading": "Chargement...",
+    "seeMore": "Voir plus",
+    "seeLess": "Voir moins",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Pr\u00e9c\u00e9dent",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "noResults": "Aucun r\u00e9sultat trouv\u00e9",
+    "yes": "Oui",
+    "no": "Non"
+  },
+
+  "hero": {
+    "headline": "Votre sourire m\u00e9rite le meilleur",
+    "subheadline": "Des soins dentaires professionnels dans un cadre moderne et accueillant. Votre chirurgien-dentiste vous accompagne pour une sant\u00e9 bucco-dentaire optimale.",
+    "ctaWhatsApp": "Nous \u00e9crire sur WhatsApp",
+    "ctaCall": "Appeler le cabinet",
+    "ctaBooking": "Prendre rendez-vous",
+    "trustedBy": "Des patients nous font confiance",
+    "availableToday": "Disponible aujourd\u2019hui"
+  },
+
+  "services": {
+    "title": "Nos soins dentaires",
+    "subtitle": "Un large \u00e9ventail de soins pour r\u00e9pondre \u00e0 tous vos besoins bucco-dentaires, r\u00e9alis\u00e9s avec les techniques les plus r\u00e9centes.",
+    "categories": {
+      "general": {
+        "name": "Soins g\u00e9n\u00e9raux",
+        "description": "Consultations, d\u00e9tartrage, traitement des caries et soins conservateurs pour maintenir une bonne sant\u00e9 bucco-dentaire."
+      },
+      "cosmetic": {
+        "name": "Esth\u00e9tique dentaire",
+        "description": "Blanchiment, facettes, couronnes c\u00e9ramiques et restaurations esth\u00e9tiques pour un sourire \u00e9clatant."
+      },
+      "orthodontics": {
+        "name": "Orthodontie",
+        "description": "Appareils dentaires, aligneurs invisibles et correction des malpositions pour un alignement parfait."
+      },
+      "surgery": {
+        "name": "Chirurgie dentaire",
+        "description": "Extractions, implants dentaires, greffes osseuses et chirurgie des dents de sagesse."
+      },
+      "paediatric": {
+        "name": "Dentisterie p\u00e9diatrique",
+        "description": "Soins adapt\u00e9s aux enfants dans un environnement rassurant, de la pr\u00e9vention aux traitements."
+      },
+      "emergency": {
+        "name": "Urgences dentaires",
+        "description": "Prise en charge rapide des douleurs aigu\u00ebs, traumatismes dentaires et infections."
+      }
+    },
+    "viewDetails": "Voir les d\u00e9tails",
+    "bookAppointment": "Prendre rendez-vous",
+    "priceFrom": "\u00c0 partir de",
+    "duration": "Dur\u00e9e",
+    "visits": "S\u00e9ances",
+    "singleVisit": "1 s\u00e9ance",
+    "multipleVisits": "{count} s\u00e9ances",
+    "minutes": "min",
+    "currency": "DA",
+    "freeConsultation": "Consultation gratuite",
+    "popularService": "Soin populaire"
+  },
+
+  "about": {
+    "title": "Notre Dentiste",
+    "subtitle": "Un chirurgien-dentiste qualifi\u00e9 et d\u00e9vou\u00e9 \u00e0 votre service.",
+    "qualifications": "Dipl\u00f4mes et qualifications",
+    "experience": "Exp\u00e9rience professionnelle",
+    "specialties": "Sp\u00e9cialit\u00e9s",
+    "yearsOfExperience": "{count} ans d\u2019exp\u00e9rience",
+    "graduatedFrom": "Dipl\u00f4m\u00e9(e) de",
+    "acceptingPatients": "Accepte de nouveaux patients",
+    "notAcceptingPatients": "Ne prend pas de nouveaux patients actuellement",
+    "languages": "Langues parl\u00e9es",
+    "memberships": "Affiliations professionnelles",
+    "philosophy": "Notre approche",
+    "philosophyText": "Nous croyons en une approche personnalis\u00e9e, o\u00f9 chaque patient b\u00e9n\u00e9ficie d\u2019un plan de traitement adapt\u00e9 \u00e0 ses besoins, dans un climat de confiance et de transparence."
+  },
+
+  "gallery": {
+    "title": "Galerie Avant/Apr\u00e8s",
+    "subtitle": "D\u00e9couvrez les r\u00e9sultats de nos soins \u00e0 travers des cas r\u00e9els.",
+    "filters": {
+      "all": "Tous les cas",
+      "category": "Cat\u00e9gorie",
+      "upperJaw": "M\u00e2choire sup\u00e9rieure",
+      "lowerJaw": "M\u00e2choire inf\u00e9rieure",
+      "bothJaws": "Les deux m\u00e2choires"
+    },
+    "before": "Avant",
+    "after": "Apr\u00e8s",
+    "caseDetails": "D\u00e9tails du cas",
+    "treatment": "Traitement r\u00e9alis\u00e9",
+    "treatmentDuration": "Dur\u00e9e du traitement",
+    "patientConsent": "Photos publi\u00e9es avec le consentement du patient",
+    "noPhotos": "Aucune photo disponible pour cette cat\u00e9gorie"
+  },
+
+  "reviews": {
+    "title": "Avis de nos patients",
+    "subtitle": "Ce que nos patients disent de leur exp\u00e9rience au cabinet.",
+    "verifiedReview": "Avis v\u00e9rifi\u00e9",
+    "source": {
+      "google": "Avis Google",
+      "facebook": "Avis Facebook",
+      "website": "Avis sur le site"
+    },
+    "ratingOutOf5": "{rating} sur 5",
+    "leaveReview": "Laisser un avis",
+    "totalReviews": "{count} avis au total",
+    "averageRating": "Note moyenne",
+    "sortBy": "Trier par",
+    "sortRecent": "Plus r\u00e9cents",
+    "sortHighest": "Meilleures notes",
+    "sortLowest": "Notes les plus basses",
+    "writeReview": "R\u00e9diger un avis",
+    "yourRating": "Votre note",
+    "yourReview": "Votre avis",
+    "submitReview": "Envoyer l\u2019avis",
+    "thankYou": "Merci pour votre avis !",
+    "reviewSubmitted": "Votre avis a \u00e9t\u00e9 soumis et sera publi\u00e9 apr\u00e8s v\u00e9rification."
+  },
+
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "N\u2019h\u00e9sitez pas \u00e0 nous contacter pour toute question ou pour prendre rendez-vous.",
+    "address": "Adresse du cabinet",
+    "phone": "T\u00e9l\u00e9phone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "openingHours": "Horaires d\u2019ouverture",
+    "emergencyContact": "Num\u00e9ro d\u2019urgence",
+    "getDirections": "Itin\u00e9raire",
+    "mapTitle": "Nous trouver",
+    "days": {
+      "sunday": "Dimanche",
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi"
+    },
+    "closed": "Ferm\u00e9",
+    "sendMessage": "Envoyer un message",
+    "messagePlaceholder": "Votre message...",
+    "messageSent": "Votre message a \u00e9t\u00e9 envoy\u00e9 avec succ\u00e8s.",
+    "messageError": "Une erreur est survenue. Veuillez r\u00e9essayer."
+  },
+
+  "booking": {
+    "title": "Prendre rendez-vous",
+    "subtitle": "R\u00e9servez votre cr\u00e9neau en quelques \u00e9tapes simples.",
+    "steps": {
+      "service": "Choisir un soin",
+      "date": "Choisir une date",
+      "info": "Vos informations",
+      "confirmation": "Confirmation"
+    },
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Entrez votre nom complet",
+      "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+      "phonePlaceholder": "Ex\u00a0: 05 XX XX XX XX",
+      "preferredDate": "Date souhait\u00e9e",
+      "preferredTime": "Heure souhait\u00e9e",
+      "notes": "Notes ou remarques",
+      "notesPlaceholder": "Informations compl\u00e9mentaires (allergies, traitements en cours, etc.)",
+      "selectService": "S\u00e9lectionnez un soin",
+      "selectDate": "S\u00e9lectionnez une date",
+      "selectTime": "S\u00e9lectionnez un cr\u00e9neau"
+    },
+    "submit": "Confirmer le rendez-vous",
+    "success": {
+      "title": "Rendez-vous confirm\u00e9 !",
+      "message": "Votre demande de rendez-vous a \u00e9t\u00e9 enregistr\u00e9e. Nous vous contacterons pour confirmer le cr\u00e9neau.",
+      "reference": "R\u00e9f\u00e9rence\u00a0: {ref}"
+    },
+    "error": {
+      "title": "Erreur",
+      "message": "Une erreur est survenue lors de la prise de rendez-vous. Veuillez r\u00e9essayer ou nous contacter directement.",
+      "slotTaken": "Ce cr\u00e9neau n\u2019est plus disponible. Veuillez en choisir un autre.",
+      "pastDate": "Vous ne pouvez pas choisir une date pass\u00e9e."
+    },
+    "morning": "Matin",
+    "afternoon": "Apr\u00e8s-midi",
+    "available": "Disponible",
+    "unavailable": "Indisponible",
+    "selectedDate": "Date s\u00e9lectionn\u00e9e",
+    "selectedTime": "Heure s\u00e9lectionn\u00e9e",
+    "summary": "R\u00e9capitulatif"
+  },
+
+  "faq": {
+    "title": "Questions fr\u00e9quentes",
+    "subtitle": "Retrouvez les r\u00e9ponses aux questions les plus courantes sur nos soins et le fonctionnement du cabinet.",
+    "stillHaveQuestions": "Vous avez d\u2019autres questions\u00a0?",
+    "contactUs": "N\u2019h\u00e9sitez pas \u00e0 nous contacter"
+  },
+
+  "admin": {
+    "dashboard": {
+      "title": "Tableau de bord",
+      "welcome": "Bienvenue sur votre espace d\u2019administration",
+      "todayAppointments": "Rendez-vous du jour",
+      "pendingAppointments": "Rendez-vous en attente",
+      "totalPatients": "Total patients",
+      "newMessages": "Nouveaux messages",
+      "recentActivity": "Activit\u00e9 r\u00e9cente",
+      "quickActions": "Actions rapides"
+    },
+    "appointments": {
+      "title": "Gestion des rendez-vous",
+      "upcoming": "Rendez-vous \u00e0 venir",
+      "past": "Rendez-vous pass\u00e9s",
+      "cancelled": "Rendez-vous annul\u00e9s",
+      "status": {
+        "pending": "En attente",
+        "confirmed": "Confirm\u00e9",
+        "completed": "Termin\u00e9",
+        "cancelled": "Annul\u00e9",
+        "noShow": "Absent"
+      },
+      "confirmAppointment": "Confirmer",
+      "cancelAppointment": "Annuler",
+      "reschedule": "Reporter",
+      "noAppointments": "Aucun rendez-vous"
+    },
+    "patients": {
+      "title": "Fichier patients",
+      "addPatient": "Ajouter un patient",
+      "editPatient": "Modifier le patient",
+      "patientHistory": "Historique du patient",
+      "lastVisit": "Derni\u00e8re visite",
+      "nextAppointment": "Prochain rendez-vous",
+      "totalVisits": "Nombre de visites",
+      "noPatients": "Aucun patient enregistr\u00e9"
+    },
+    "content": {
+      "title": "Gestion du contenu",
+      "editServices": "Modifier les soins",
+      "editGallery": "Modifier la galerie",
+      "editFAQ": "Modifier la FAQ",
+      "editAbout": "Modifier la page dentiste",
+      "editHours": "Modifier les horaires"
+    },
+    "analytics": {
+      "title": "Statistiques",
+      "visitors": "Visiteurs",
+      "bookings": "R\u00e9servations",
+      "conversionRate": "Taux de conversion",
+      "topServices": "Soins les plus demand\u00e9s",
+      "period": "P\u00e9riode",
+      "thisWeek": "Cette semaine",
+      "thisMonth": "Ce mois",
+      "thisYear": "Cette ann\u00e9e"
+    },
+    "settings": {
+      "title": "Param\u00e8tres",
+      "general": "G\u00e9n\u00e9ral",
+      "notifications": "Notifications",
+      "security": "S\u00e9curit\u00e9",
+      "clinicInfo": "Informations du cabinet",
+      "changePassword": "Changer le mot de passe",
+      "language": "Langue de l\u2019interface"
+    },
+    "messages": {
+      "title": "Messages",
+      "inbox": "Bo\u00eete de r\u00e9ception",
+      "unread": "Non lus",
+      "read": "Lus",
+      "reply": "R\u00e9pondre",
+      "markAsRead": "Marquer comme lu",
+      "noMessages": "Aucun message"
+    },
+    "reviews": {
+      "title": "Gestion des avis",
+      "approve": "Approuver",
+      "reject": "Rejeter",
+      "pending": "En attente de mod\u00e9ration",
+      "published": "Publi\u00e9s",
+      "rejected": "Rejet\u00e9s"
+    }
+  },
+
+  "footer": {
+    "copyright": "\u00a9 {year} {clinicName}. Tous droits r\u00e9serv\u00e9s.",
+    "quickLinks": "Liens rapides",
+    "legalNotice": "Mentions l\u00e9gales",
+    "privacyPolicy": "Politique de confidentialit\u00e9",
+    "termsOfUse": "Conditions d\u2019utilisation",
+    "madeWith": "Fait avec soin en Alg\u00e9rie",
+    "followUs": "Suivez-nous",
+    "description": "Cabinet dentaire offrant des soins de qualit\u00e9 avec les \u00e9quipements les plus modernes."
+  },
+
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidPhone": "Num\u00e9ro de t\u00e9l\u00e9phone invalide. Utilisez le format\u00a0: 05 XX XX XX XX",
+    "invalidEmail": "Adresse e-mail invalide",
+    "tooShort": "Ce champ doit contenir au moins {min} caract\u00e8res",
+    "tooLong": "Ce champ ne doit pas d\u00e9passer {max} caract\u00e8res",
+    "invalidDate": "Date invalide",
+    "pastDate": "La date ne peut pas \u00eatre dans le pass\u00e9",
+    "generic": "Une erreur est survenue. Veuillez r\u00e9essayer.",
+    "networkError": "Erreur de connexion. V\u00e9rifiez votre connexion internet.",
+    "notFound": "Page introuvable",
+    "notFoundMessage": "La page que vous recherchez n\u2019existe pas ou a \u00e9t\u00e9 d\u00e9plac\u00e9e.",
+    "serverError": "Erreur serveur",
+    "serverErrorMessage": "Un probl\u00e8me technique est survenu. Veuillez r\u00e9essayer plus tard.",
+    "unauthorized": "Acc\u00e8s non autoris\u00e9",
+    "nameRequired": "Veuillez saisir votre nom",
+    "phoneRequired": "Veuillez saisir votre num\u00e9ro de t\u00e9l\u00e9phone",
+    "serviceRequired": "Veuillez s\u00e9lectionner un soin",
+    "dateRequired": "Veuillez choisir une date",
+    "timeRequired": "Veuillez choisir un cr\u00e9neau horaire",
+    "ratingRequired": "Veuillez attribuer une note",
+    "reviewRequired": "Veuillez r\u00e9diger votre avis"
+  }
+}
