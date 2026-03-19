@@ -3,9 +3,8 @@
 import { useEffect, useState } from "react";
 import { useLocale } from "next-intl";
 import { getWhatsAppLink } from "@/lib/utils";
+import { clinic } from "@/data/clinic";
 import type { Locale } from "@/types";
-
-const CLINIC_WHATSAPP = "+213 555 123 456";
 
 export default function WhatsAppFAB() {
   const locale = useLocale() as Locale;
@@ -20,7 +19,7 @@ export default function WhatsAppFAB() {
     return () => clearTimeout(timer);
   }, []);
 
-  const whatsappUrl = getWhatsAppLink(CLINIC_WHATSAPP);
+  const whatsappUrl = getWhatsAppLink(clinic.whatsappNumber);
 
   return (
     <a

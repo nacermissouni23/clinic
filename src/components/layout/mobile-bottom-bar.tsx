@@ -3,23 +3,21 @@
 import { useLocale, useTranslations } from "next-intl";
 import { Phone, Calendar } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/utils";
+import { clinic } from "@/data/clinic";
 import type { Locale } from "@/types";
-
-const CLINIC_PHONE = "+213 555 123 456";
-const CLINIC_WHATSAPP = "+213 555 123 456";
 
 export default function MobileBottomBar() {
   const t = useTranslations("common");
   const locale = useLocale() as Locale;
 
-  const whatsappUrl = getWhatsAppLink(CLINIC_WHATSAPP);
+  const whatsappUrl = getWhatsAppLink(clinic.whatsappNumber);
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.08)] md:hidden">
       <div className="flex h-16 items-stretch">
         {/* Phone Button */}
         <a
-          href={`tel:${CLINIC_PHONE.replace(/\s/g, "")}`}
+          href={`tel:${clinic.phonePrimary.replace(/\s/g, "")}`}
           className="flex flex-1 flex-col items-center justify-center gap-1 text-blue-600 transition-colors active:bg-blue-50"
           style={{ minHeight: "44px" }}
         >
