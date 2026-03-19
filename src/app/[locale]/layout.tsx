@@ -1,7 +1,7 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { Inter, Noto_Sans_Arabic } from "next/font/google";
+import { Montserrat, Noto_Sans_Arabic } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import type { Locale } from "@/types";
 import type { Metadata } from "next";
@@ -13,7 +13,7 @@ import MobileBottomBar from "@/components/layout/mobile-bottom-bar";
 
 import "../globals.css";
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
@@ -26,19 +26,24 @@ const notoSansArabic = Noto_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  title: "Clinique Connect DZ - Cabinet Dentaire",
+  title: "Better Smile Clinic - Dr. Kaddour S.",
   description:
-    "Cabinet dentaire moderne en Algerie. Soins dentaires professionnels, implants, orthodontie, blanchiment. Prenez rendez-vous en ligne. | عيادة أسنان حديثة في الجزائر. علاجات أسنان متكاملة، زراعة، تقويم، تبييض. احجز موعدك عبر الإنترنت.",
+    "Cabinet Dentaire Spécialisé — Chirurgie · Implantologie · Dentisterie esthétique à Sidi Yahia, Hydra, Alger, Algérie. Prenez rendez-vous sur WhatsApp. | عيادة أسنان متخصصة في الجراحة، زراعة الأسنان، وطب الأسنان التجميلي بسيدي يحيى، حيدرة.",
   keywords: [
     "dentiste",
-    "Algerie",
+    "Alger",
+    "Hydra",
+    "Sidi Yahia",
     "cabinet dentaire",
-    "soins dentaires",
+    "chirurgie dentaire",
     "implant dentaire",
-    "orthodontie",
+    "dentisterie esthétique",
     "طبيب أسنان",
     "الجزائر",
+    "حيدرة",
+    "سيدي يحيى",
     "عيادة أسنان",
+    "زراعة الأسنان",
   ],
 };
 
@@ -64,12 +69,12 @@ export default async function LocaleLayout({
 
   const fontClass = isRTL
     ? `${notoSansArabic.variable} font-arabic`
-    : `${inter.variable} font-french`;
+    : `${montserrat.variable} font-french`;
 
   return (
     <html lang={typedLocale} dir={dir} suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${notoSansArabic.variable} ${fontClass} antialiased bg-white text-secondary-900`}
+        className={`${montserrat.variable} ${notoSansArabic.variable} ${fontClass} antialiased bg-white text-secondary-900`}
       >
         <NextIntlClientProvider messages={messages}>
           <div className="flex min-h-screen flex-col">

@@ -3,12 +3,11 @@
 import { useState, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/routing";
-import { cn } from "@/lib/utils";
-import { Menu, X, Calendar } from "lucide-react";
+import { cn, getWhatsAppLink } from "@/lib/utils";
+import { clinic } from "@/data/clinic";
+import { Menu, X, MessageCircle } from "lucide-react";
 import type { Locale } from "@/types";
 
-const CLINIC_NAME_FR = "Cabinet Dentaire Dr. Amira Bensalem";
-const CLINIC_NAME_AR = "عيادة الدكتورة أميرة بن سالم لطب الأسنان";
 
 const NAV_LINKS = [
   { href: "/", key: "home" },
@@ -27,9 +26,13 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const isRTL = locale === "ar";
-  const clinicName = isRTL ? CLINIC_NAME_AR : CLINIC_NAME_FR;
   const otherLocale: Locale = locale === "ar" ? "fr" : "ar";
+  const whatsAppUrl = getWhatsAppLink(
+    clinic.whatsappNumber,
+    locale === "ar"
+      ? "مرحباً، أريد حجز موعد في العيادة"
+      : "Bonjour, je souhaite prendre rendez-vous"
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,17 +78,9 @@ export default function Header() {
             {/* Logo */}
             <Link
               href="/"
-              className="flex shrink-0 items-center gap-2"
+              className="flex shrink-0 items-center justify-center -ml-2"
             >
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">
-                C
-              </div>
-              <span className="hidden text-base font-bold text-secondary-800 sm:inline lg:text-lg">
-                {clinicName}
-              </span>
-              <span className="text-base font-bold text-secondary-800 sm:hidden">
-                Clinique Connect
-              </span>
+              <img src="/images/logo.png" alt="Better Smile Clinic Logo" className="h-14 w-auto object-contain" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -127,14 +122,15 @@ export default function Header() {
               </button>
 
               {/* Desktop Book Appointment CTA */}
-              <Link
-                href="/book"
-                className="hidden items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-primary-700 hover:shadow-md md:flex"
-              >
-                <Calendar className="h-4 w-4" />
-                {t("nav.booking")}
-              </Link>
-
+                <a
+                  href={whatsAppUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hidden items-center gap-2 rounded-lg bg-[#25D366] px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-[#1DA851] hover:shadow-md md:flex"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  {t("nav.booking")}
+                </a>
               {/* Mobile Hamburger */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -190,11 +186,13 @@ export default function Header() {
           })}
 
           {/* Mobile Book Appointment CTA */}
-          <Link
-            href="/book"
+          <a
+            href={whatsAppUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMobileMenuOpen(false)}
             className={cn(
-              "mt-6 flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-base font-semibold text-white shadow-md transition-all hover:bg-primary-700",
+              "mt-6 flex items-center justify-center gap-2 rounded-xl bg-[#25D366] px-6 py-3.5 text-base font-semibold text-white shadow-md transition-all hover:bg-[#1DA851]",
               mobileMenuOpen
                 ? "translate-y-0 opacity-100"
                 : "translate-y-4 opacity-0"
@@ -205,9 +203,9 @@ export default function Header() {
                 : "0ms",
             }}
           >
-            <Calendar className="h-5 w-5" />
+            <MessageCircle className="h-5 w-5" />
             {t("nav.booking")}
-          </Link>
+          </a>
         </nav>
       </div>
     </>

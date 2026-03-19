@@ -71,8 +71,8 @@ const config: Config = {
       },
       fontFamily: {
         arabic: ['"Noto Sans Arabic"', "Tahoma", "Arial", "sans-serif"],
-        french: ['"Inter"', "system-ui", "Helvetica", "Arial", "sans-serif"],
-        sans: ['"Inter"', '"Noto Sans Arabic"', "system-ui", "sans-serif"],
+        french: ['"Montserrat"', "system-ui", "Helvetica", "Arial", "sans-serif"],
+        sans: ['"Montserrat"', '"Noto Sans Arabic"', "system-ui", "sans-serif"],
       },
       spacing: {
         "18": "4.5rem",

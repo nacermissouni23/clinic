@@ -4,13 +4,13 @@ import { cn, getWhatsAppLink } from "@/lib/utils";
 import { Phone, MapPin, Clock, Facebook, Instagram } from "lucide-react";
 import type { Locale } from "@/types";
 
-const CLINIC_PHONE = "+213 555 123 456";
-const CLINIC_WHATSAPP = "+213 555 123 456";
-const CLINIC_NAME_FR = "Cabinet Dentaire Dr. Amira Bensalem";
-const CLINIC_NAME_AR = "عيادة الدكتورة أميرة بن سالم لطب الأسنان";
+const CLINIC_PHONE = "+213 542 26 47 66";
+const CLINIC_WHATSAPP = "+213 542 26 47 66";
+const CLINIC_NAME_FR = "Better Smile Clinic";
+const CLINIC_NAME_AR = "عيادة بيتر سمايل";
 
-const CLINIC_ADDRESS_FR = "Rue Didouche Mourad, Alger Centre, Alger";
-const CLINIC_ADDRESS_AR = "شارع ديدوش مراد، وسط الجزائر، الجزائر";
+const CLINIC_ADDRESS_FR = "102 logements Bt1 n°1, Sidi Yahia, Hydra, Alger";
+const CLINIC_ADDRESS_AR = "102 مسكن عمارة 1 رقم 1، سيدي يحيى، حيدرة، الجزائر";
 
 const NAV_LINKS = [
   { href: "/", key: "home" },
@@ -49,13 +49,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           {/* Column 1: Clinic Info */}
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">
-                C
-              </div>
-              <h3 className="text-lg font-bold text-white">
-                {clinicName}
-              </h3>
+            <div className="mb-6 flex items-center gap-2">
+              <img src="/images/logo.png" alt="Better Smile Clinic Logo" className="h-16 w-auto object-contain brightness-0 invert" />
             </div>
             <p className="mb-6 text-sm leading-relaxed text-secondary-300">
               {tFooter("description")}
@@ -103,14 +98,18 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="#"
+                  href="https://facebook.com/DrkaddourS"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="Facebook"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary-800 text-secondary-300 transition-colors hover:bg-primary hover:text-white"
                 >
                   <Facebook className="h-4 w-4" />
                 </a>
                 <a
-                  href="#"
+                  href="https://instagram.com/dr.kaddour.s"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="Instagram"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary-800 text-secondary-300 transition-colors hover:bg-primary hover:text-white"
                 >

@@ -72,38 +72,19 @@ export default function LocationSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-          {/* Left: Map placeholder */}
+          {/* Left: Map */}
           <div className="order-2 lg:order-1">
-            <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary-50 via-gray-50 to-accent-50 border border-gray-200 h-[320px] md:h-[400px] flex flex-col items-center justify-center group">
-              {/* Grid pattern to simulate map */}
-              <div className="absolute inset-0 opacity-10" style={{
-                backgroundImage: `
-                  linear-gradient(rgba(13, 148, 136, 0.3) 1px, transparent 1px),
-                  linear-gradient(90deg, rgba(13, 148, 136, 0.3) 1px, transparent 1px)
-                `,
-                backgroundSize: "40px 40px",
-              }} />
-
-              {/* Map pin */}
-              <div className="relative z-10 flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-primary shadow-lg flex items-center justify-center mb-4 animate-bounce-gentle">
-                  <MapPin className="h-8 w-8 text-white" />
-                </div>
-                <div className="bg-white rounded-xl shadow-md px-6 py-4 text-center max-w-xs border border-gray-100">
-                  <p className="font-semibold text-secondary-900 text-sm mb-1">{address}</p>
-                  <p className="text-xs text-gray-400 font-mono mt-2">
-                    {clinic.latitude.toFixed(4)}, {clinic.longitude.toFixed(4)}
-                  </p>
-                </div>
-              </div>
-
-              {/* Decorative roads */}
-              <div className="absolute top-1/2 left-0 right-0 h-px bg-primary-200/50" />
-              <div className="absolute top-0 bottom-0 left-1/2 w-px bg-primary-200/50" />
-              <div className="absolute top-1/4 left-0 right-0 h-px bg-primary-100/30" />
-              <div className="absolute top-0 bottom-0 left-1/4 w-px bg-primary-100/30" />
-              <div className="absolute top-0 bottom-0 left-3/4 w-px bg-primary-100/30" />
-              <div className="absolute top-3/4 left-0 right-0 h-px bg-primary-100/30" />
+            <div className="relative rounded-2xl overflow-hidden shadow-md border border-gray-200 h-[320px] md:h-[400px]">
+              <iframe
+                title="Google Maps"
+                src={`https://maps.google.com/maps?q=${clinic.latitude},${clinic.longitude}&z=15&output=embed`}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
 
             {/* Get directions button */}

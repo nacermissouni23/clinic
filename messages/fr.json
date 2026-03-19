@@ -1,7 +1,7 @@
 {
   "common": {
-    "clinicName": "Clinique Connect DZ",
-    "clinicNameDefault": "Cabinet Dentaire",
+    "clinicName": "Better Smile Clinic",
+    "clinicNameDefault": "Better Smile",
     "language": {
       "fr": "Fran\u00e7ais",
       "ar": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
@@ -41,12 +41,12 @@
   },
 
   "hero": {
-    "headline": "Votre sourire m\u00e9rite le meilleur",
-    "subheadline": "Des soins dentaires professionnels dans un cadre moderne et accueillant. Votre chirurgien-dentiste vous accompagne pour une sant\u00e9 bucco-dentaire optimale.",
-    "ctaWhatsApp": "Nous \u00e9crire sur WhatsApp",
+    "headline": "Cabinet Dentaire Spécialisé",
+    "subheadline": "Chirurgie · Implantologie · Dentisterie esthétique. Des soins dentaires au cœur de Sidi Yahia, Hydra.",
+    "ctaWhatsApp": "Prendre RDV sur WhatsApp",
     "ctaCall": "Appeler le cabinet",
-    "ctaBooking": "Prendre rendez-vous",
-    "trustedBy": "Des patients nous font confiance",
+    "ctaBooking": "Prendre RDV sur WhatsApp",
+    "trustedBy": "Des patients nous font confiance (4.9 ★)",
     "availableToday": "Disponible aujourd\u2019hui"
   },
 

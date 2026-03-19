@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
-import { GraduationCap, Clock, Award, ArrowRight, ArrowLeft, Heart } from "lucide-react";
+import { GraduationCap, Clock, Award, ArrowRight, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "@/i18n/routing";
@@ -32,17 +32,12 @@ export default function AboutTeaser() {
               <div className="absolute -inset-6 bg-accent/5 rounded-3xl -rotate-2" />
 
               {/* Main photo placeholder */}
-              <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-3xl bg-gradient-to-br from-primary-100 via-primary-50 to-accent-50 flex flex-col items-center justify-center gap-4 shadow-xl border border-primary-100/50 overflow-hidden">
-                {/* Tooth/medical icon placeholder */}
-                <div className="w-24 h-24 rounded-full bg-white/80 flex items-center justify-center shadow-sm">
-                  <Heart className="w-12 h-12 text-primary/50" />
-                </div>
-                <div className="text-center px-6">
-                  <p className="font-semibold text-secondary-800 text-lg">{name}</p>
-                  <p className="text-sm text-gray-500 mt-1">
-                    {locale === "ar" ? "جراح أسنان" : "Chirurgien-dentiste"}
-                  </p>
-                </div>
+              <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-xl border border-primary-100/50">
+                <img 
+                  src={dentist.photoUrl} 
+                  alt={name} 
+                  className="w-full h-full object-cover"
+                />
 
                 {/* Decorative pattern */}
                 <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-primary/5 to-transparent" />
