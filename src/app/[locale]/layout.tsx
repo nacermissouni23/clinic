@@ -29,6 +29,11 @@ export const metadata: Metadata = {
   title: "Better Smile Clinic - Dr. Kaddour S.",
   description:
     "Cabinet Dentaire Spécialisé — Chirurgie · Implantologie · Dentisterie esthétique à Sidi Yahia, Hydra, Alger, Algérie. Prenez rendez-vous sur WhatsApp. | عيادة أسنان متخصصة في الجراحة، زراعة الأسنان، وطب الأسنان التجميلي بسيدي يحيى، حيدرة.",
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
   keywords: [
     "dentiste",
     "Alger",
